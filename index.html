@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rating Component</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/png"
+      sizes="32x32"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="./style.css"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="./script.js"
+    ></script>
+  </head>
+
+  <body>
+    <main class="container">
+      <span class="star">
+        <img
+          src="./images/icon-star.svg"
+          alt="Star"
+          4
+          width="20px"
+          height="20px"
+        />
+      </span>
+
+      <h1 class="title">How did we do?</h1>
+      <p>
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+
+      <form
+        action="thankYou/index.html"
+        class="form"
+        id="form"
+      >
+        <ul class="rate-list">
+          <li>
+            <label>
+              <input
+                type="radio"
+                name="option"
+                value="1"
+              />
+              <span class="option">1</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input
+                type="radio"
+                name="option"
+                value="2"
+              />
+              <span class="option">2</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input
+                type="radio"
+                name="option"
+                value="3"
+              />
+              <span class="option">3</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input
+                type="radio"
+                name="option"
+                value="4"
+              />
+              <span class="option">4</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input
+                type="radio"
+                name="option"
+                value="5"
+              />
+              <span class="option">5</span>
+            </label>
+          </li>
+        </ul>
+      </form>
+
+      <button
+        type="submit"
+        class="submit-btn"
+        form="form"
+      >
+        Submit
+      </button>
+    </main>
+  </body>
+</html>
